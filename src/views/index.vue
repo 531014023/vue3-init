@@ -8,6 +8,7 @@ import HelloWorld from '../components/HelloWorld.vue'
       <HelloWorld />
     </div>
 
+    <button @click="$router.push('/home')">Home</button>
     <button @click="$router.push('/about')">About</button>
   </main>
 </template>
